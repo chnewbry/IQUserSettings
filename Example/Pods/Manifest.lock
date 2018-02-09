@@ -1,0 +1,16 @@
+PODS:
+  - IQUserSettings (0.1.0)
+
+DEPENDENCIES:
+  - IQUserSettings (from `../`)
+
+EXTERNAL SOURCES:
+  IQUserSettings:
+    :path: ../
+
+SPEC CHECKSUMS:
+  IQUserSettings: 1f796cc48963b73910949f68d2fcb75b184ae103
+
+PODFILE CHECKSUM: 5da4f0718098805650c24c53da09bc8ed069da32
+
+COCOAPODS: 1.3.1

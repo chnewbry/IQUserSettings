@@ -1,0 +1,6 @@
+framework module Pods_IQUserSettings_Tests {
+  umbrella header "Pods-IQUserSettings_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

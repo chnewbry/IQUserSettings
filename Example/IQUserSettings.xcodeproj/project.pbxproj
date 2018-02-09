@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		332DFE65202E20080044534D /* TestUserSettingsDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332DFE64202E20070044534D /* TestUserSettingsDataStore.swift */; };
 		5EC1E5481B0CAC548CEB1C8C /* Pods_IQUserSettings_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37546FDFC72A32CB3818CFB2 /* Pods_IQUserSettings_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		0234E567E95216C47E73219F /* Pods-IQUserSettings_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQUserSettings_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IQUserSettings_Tests/Pods-IQUserSettings_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		332DFE64202E20070044534D /* TestUserSettingsDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUserSettingsDataStore.swift; sourceTree = "<group>"; };
 		37546FDFC72A32CB3818CFB2 /* Pods_IQUserSettings_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IQUserSettings_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48DA7F85BC58CE008E177929 /* Pods-IQUserSettings_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQUserSettings_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IQUserSettings_Tests/Pods-IQUserSettings_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5D67768CFC0435389C6EB646 /* Pods_IQUserSettings_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IQUserSettings_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,10 +45,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		839EEA95C3BD69BAA6E09C4C /* Pods-IQUserSettings_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQUserSettings_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IQUserSettings_Example/Pods-IQUserSettings_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9BF04439A4D80B68DA1B8B60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9BF04439A4D80B68DA1B8B60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9E7AECC9B2B43D420666304A /* Pods-IQUserSettings_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQUserSettings_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-IQUserSettings_Example/Pods-IQUserSettings_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BE7D141E5F0B63A414544E54 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E67F23EF88F96FA128CCA95E /* IQUserSettings.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = IQUserSettings.podspec; path = ../IQUserSettings.podspec; sourceTree = "<group>"; };
+		BE7D141E5F0B63A414544E54 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E67F23EF88F96FA128CCA95E /* IQUserSettings.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IQUserSettings.podspec; path = ../IQUserSettings.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,21 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		332DFE62202E1FD10044534D /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				332DFE64202E20070044534D /* TestUserSettingsDataStore.swift */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		332DFE63202E1FD90044534D /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +121,8 @@
 		607FACD21AFB9204008FA782 /* Example for IQUserSettings */ = {
 			isa = PBXGroup;
 			children = (
+				332DFE63202E1FD90044534D /* API */,
+				332DFE62202E1FD10044534D /* DataStore */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -215,10 +234,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = NYW23B32LS;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = NYW23B32LS;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -371,6 +392,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				332DFE65202E20080044534D /* TestUserSettingsDataStore.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,7 +539,9 @@
 			baseConfigurationReference = 839EEA95C3BD69BAA6E09C4C /* Pods-IQUserSettings_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NYW23B32LS;
 				INFOPLIST_FILE = IQUserSettings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -532,7 +556,9 @@
 			baseConfigurationReference = 9E7AECC9B2B43D420666304A /* Pods-IQUserSettings_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NYW23B32LS;
 				INFOPLIST_FILE = IQUserSettings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -546,6 +572,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 48DA7F85BC58CE008E177929 /* Pods-IQUserSettings_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = NYW23B32LS;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -567,6 +594,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0234E567E95216C47E73219F /* Pods-IQUserSettings_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = NYW23B32LS;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

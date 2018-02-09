@@ -1,0 +1,22 @@
+{
+  "name": "IQUserSettings",
+  "version": "0.1.0",
+  "summary": "A short description of IQUserSettings.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chnewbry@microsoft.com/IQUserSettings",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chnewbry@microsoft.com": "chnewbry@microsoft.com"
+  },
+  "source": {
+    "git": "https://github.com/chnewbry@microsoft.com/IQUserSettings.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "IQUserSettings/Classes/**/*"
+}

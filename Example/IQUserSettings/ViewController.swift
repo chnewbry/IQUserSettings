@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import IQUserSettings
 
 class ViewController: UIViewController {
 
@@ -20,5 +21,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    // MARK -- UserSettingDataStore
+
+    @IBAction func openIQUserSettings(_ sender: Any) {
+//        let viewController = UserSettingsViewController(
+    }
 }
 
