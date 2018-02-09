@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0C28AA464DD52DF5A64415FC1EADC79A8C56F646",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0C28AA464DD52DF5A64415FC1EADC79A8C56F646" : 9223372036854775807,
+    "44EFB53CF5A25C50D30FAD015D0D9205B74A315A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "46CAC65A-982F-4E2F-97EC-D1871EE26831",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0C28AA464DD52DF5A64415FC1EADC79A8C56F646" : "IQUserSettings\/",
+    "44EFB53CF5A25C50D30FAD015D0D9205B74A315A" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Pods",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/Pods\/Pods.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/chnewbry\/IQUserSettings.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0C28AA464DD52DF5A64415FC1EADC79A8C56F646"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MobileDataLabs\/spendiq-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "44EFB53CF5A25C50D30FAD015D0D9205B74A315A"
+    }
+  ]
+}

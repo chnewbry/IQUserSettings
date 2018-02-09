@@ -21,10 +21,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    // MARK -- UserSettingDataStore
+    // MARK: UserSettingDataStore
 
-    @IBAction func openIQUserSettings(_ sender: Any) {
-//        let viewController = UserSettingsViewController(
-    }
+    @IBAction func openIQUserSettings(_ sender: Any) {}
 }
-

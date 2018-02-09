@@ -8,10 +8,7 @@
 
 import Foundation
 
-
 public enum Result {
     case success()
     case error(Error)
 }
-
-

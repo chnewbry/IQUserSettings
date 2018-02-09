@@ -22,11 +22,12 @@ public class UserSettingsViewController: UIViewController, UITableViewDataSource
     public init(userSettingsProtocol: UserSettingsAPI, userSettingsDataStore: UserSettingsDataStore) {
         self.userSettingsAPI = userSettingsProtocol
         self.userSettingsDataStore = userSettingsDataStore
-        let bundle = Bundle(identifier: "com.mobiledatalabs.IQUserSettings")
+
+        let bundle = Bundle(for: UserSettingsViewController.self)
         // normally passing nil uses the main bundle
         // due to the fact we're consuming this .xib externally most likely the main bundle
         // isn't where we want to lookup this resource
-        super.init(nibName: "UserSettingsViewController", bundle: bundle)
+        super.init(nibName: String(describing: UserSettingsViewController.self), bundle: bundle)
     }
 
     public required init?(coder aDecoder: NSCoder) {
@@ -61,7 +62,6 @@ public class UserSettingsViewController: UIViewController, UITableViewDataSource
                 let keyString = self.userSettingsDataStore.settings.keys.sorted()[indexPath.row]
                 let valueDictionary = self.userSettingsDataStore.settings
                 let valueString = String(describing: valueDictionary[keyString])
-
 
                 cell.textLabel?.text = keyString
                 cell.detailTextLabel?.text = valueString
